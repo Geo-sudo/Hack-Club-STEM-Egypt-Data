@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- Font Awesome -->
+    <link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+    <link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+    <link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css"
+rel="stylesheet"
+/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEM Forum Register</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+      <!--Main Navigation-->
+  <header style="height: fit-content;">
+    <style>
+      #intro {
+        background-color: #fff;
+        height: 150vh;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link" target="_blank" href="">
+          <strong>STEM Egypt</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+      <!--        <a class="nav-link" aria-current="page" href="#intro">Home</a>  -->
+            </li>
+            
+          </ul>
+
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+                <a class="btn btn-primary" style="background-color: #fff;" href="" role="button">
+                  <img src="https://d33wubrfki0l68.cloudfront.net/006c91a175c7e72f0e68225e26cd946ade257bb3/7036c/images/stem_egypt.png" alt="STEM logo" width="30" height="24">
+                </a>
+              </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div id="intro" class="bg-image shadow-2-strong">
+      <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.8);">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-5 col-md-8"> 
+                <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                    <li class="nav-item" role="presentation" style="margin-left: 160px; ">
+                      <a class="nav-link active" id="tab-register" data-mdb-toggle="pill" href="#pills-login" role="tab"
+                        aria-controls="pills-login" aria-selected="true">Register</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                     <!-- <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab"
+                        aria-controls="pills-register" aria-selected="false">Register</a> -->
+                    </li>
+                  </ul>
+                  <!-- Pills navs -->
+                  
+                  <!-- Pills content -->
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                      <form action= "http://localhost:5000/register" method = "POST" class="bg-white  rounded-5 shadow-5-strong p-5">
+                        <div class="text-center mb-3">
+                         <!-- <p>Sign in with:</p>  -->
+                          
+                        </div>
+                  <!-- First Name input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="registerName" class="form-control" name="firstname" />
+        <label class="form-label" for="registerName">First Name</label>
+      </div>
+      <!-- Last Name input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="registerLstName" class="form-control" name="lastname" />
+        <label class="form-label" for="registerLstName">Last Name</label>
+      </div>
+      <!-- Alias input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="form1Example3" class="form-control" name = "alias" />
+        <label class="form-label" for="form1Example3">Alias</label>
+      </div>
+
+      
+      <!-- Home City input --> 
+      <div class="form-outline mb-4">
+        <input type="text" id="form1Example4" class="form-control" name="homecity"/>
+        <label class="form-label" for="form1Example4">Home City</label>
+      </div>
+      <!--School input --> 
+      <div class="form-outline mb-4">
+        <input type="text" id="form1Example5" class="form-control" name="school" />
+        <label class="form-label" for="form1Example5">School</label>
+      </div>
+      
+      <!-- Username input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="registerUsername" class="form-control" name="username"/>
+        <label class="form-label" for="registerUsername">Username</label>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="registerEmail" class="form-control" name="email"/>
+        <label class="form-label" for="registerEmail">Email</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="registerPassword" class="form-control" name="password"/>
+        <label class="form-label" for="registerPassword">Password</label>
+      </div>
+      <!-- Grade Select -->
+      <div class="form-outline mb-4">
+        <select class="form-select" id="validationCustom04" aria-label="Default select example" name="grade">
+          <option selected>Grade</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+      </div>  
+      
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" 
+          aria-describedby="registerCheckHelpText" />
+        <label class="form-check-label" for="registerCheck">
+          I have read and agree to the terms
+        </label>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-3">Register</button>
+    </form>
+  </div>
+</div>
+
+                        
+                  
+                        
+                      </form>
+                    </div>
+<!-- Pills content -->            
+
+
+
+              
+        <!--      <form action= "http://localhost:5000/login" method="POST" class="bg-white  rounded-5 shadow-5-strong p-5">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example1" class="form-control" />
+                      <label class="form-label" for="form3Example1">First name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example2" class="form-control" />
+                      <label class="form-label" for="form3Example2">Last name</label>
+                    </div>
+                  </div>
+                 Alias input 
+                <div class="form-outline mb-4">
+                  <input type="text" id="form1Example3" class="form-control" />
+                  <label class="form-label" for="form1Example3">Alias</label>
+                </div>
+                 Home City input 
+                <div class="form-outline mb-4">
+                  <input type="text" id="form1Example4" class="form-control" />
+                  <label class="form-label" for="form1Example4">Home City</label>
+                </div>
+                 School input 
+                <div class="form-outline mb-4">
+                  <input type="text" id="form1Example5" class="form-control" />
+                  <label class="form-label" for="form1Example5">School</label>
+                </div>
+                
+                < Username input 
+                <div class="form-outline mb-4">
+                  <input type="text" id="form1Example6" class="form-control" />
+                  <label class="form-label" for="form1Example6">Username</label>
+                </div>
+
+                <-- Email input 
+                <div class="form-outline mb-4">
+                  <input type="email" id="loginName" class="form-control" />
+                  <label class="form-label" for="loginName">Email</label>
+                </div>
+
+                <-- Password input 
+                <div class="form-outline mb-4">
+                  <input type="password" id="loginPassword" class="form-control" />
+                  <label class="form-label" for="loginPassword">Password</label>
+                </div>
+                <!- Grade Select 
+                <div class="form-outline mb-4">
+                  <select class="form-select" id="validationCustom04" aria-label="Default select example">
+                    <option selected>Grade</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                </div>  
+
+                <!- 2 column grid layout for inline styling 
+                <div class="row mb-4">
+                  <div class="col d-flex justify-content-center">
+                    <!- Checkbox 
+                    <div class="form-check">
+                      
+                    </div>
+                  </div>
+
+                  <div class="col text-center">
+                    <!- Simple link 
+                    
+                  </div>
+                </div>
+
+                <!-- Submit button 
+                <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+              </form>
+            -->
+    </div>
+</div>
+<!-- Pills content -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Footer-->
+  <footer class="bg-light text-lg-start">
+    <div class="py-4 text-center">
+      
+    </div>
+
+    <hr class="m-0" />
+
+    <div class="text-center py-4 align-items-center">
+      <p>Follow STEM Egypt on social media</p>
+      <!-- Facebook -->
+      <a class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/STEM6october/" role="button">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <!-- Youtube -->
+      <a class="btn btn-primary" style="background-color: #ed302f;" href="https://youtube.com/c/STEMOCT" role="button">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <!-- Instagram -->
+     <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://www.instagram.com/stem_oct/" role="button">
+       <i class="fab fa-instagram"></i>
+      </a>
+      <!-- Linkedin -->
+      <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.stemegypt.net/" role="button">
+        <i class="fas fa-globe"></i>
+      </a>
+      
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright: Hack Club STEM October
+      <a class="text-dark" href=""></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+    <!-- MDB -->
+    <!-- MDB -->
+    <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.js">   </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
