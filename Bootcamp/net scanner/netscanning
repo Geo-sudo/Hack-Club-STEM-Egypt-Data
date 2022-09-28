@@ -1,0 +1,4186 @@
+──(kali㉿kali)-[~/scan]
+└─$ ls
+scan
+                                                                             
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ vim scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh      
+zsh: permission denied: ./scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ chmod +x scan.sh      
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh
+PING 192.168.1.0 (192.168.1.0) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.0 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=63 time=2.98 ms
+
+--- 192.168.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.979/2.979/2.979/0.000 ms
+PING 192.168.1.2 (192.168.1.2) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.2 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.3 (192.168.1.3) 56(84) bytes of data.
+64 bytes from 192.168.1.3: icmp_seq=1 ttl=63 time=134 ms
+
+--- 192.168.1.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 134.118/134.118/134.118/0.000 ms
+PING 192.168.1.4 (192.168.1.4) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.4 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.5 (192.168.1.5) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.5 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.6 (192.168.1.6) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.6 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.7 (192.168.1.7) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.7 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.8 (192.168.1.8) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.8 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.9 (192.168.1.9) 56(84) bytes of data.
+64 bytes from 192.168.1.9: icmp_seq=1 ttl=127 time=1.76 ms
+
+--- 192.168.1.9 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.761/1.761/1.761/0.000 ms
+PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.10 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.11 (192.168.1.11) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.11 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.12 (192.168.1.12) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.12 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.13 (192.168.1.13) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.13 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.14 (192.168.1.14) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.14 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.15 (192.168.1.15) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.15 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.16 (192.168.1.16) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.16 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.17 (192.168.1.17) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.17 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.18 (192.168.1.18) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.18 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.19 (192.168.1.19) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.19 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.20 (192.168.1.20) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.20 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.21 (192.168.1.21) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.21 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.22 (192.168.1.22) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.22 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.23 (192.168.1.23) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.23 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.24 (192.168.1.24) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.24 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.25 (192.168.1.25) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.25 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.26 (192.168.1.26) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.26 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.27 (192.168.1.27) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.27 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.28 (192.168.1.28) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.28 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.29 (192.168.1.29) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.29 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.30 (192.168.1.30) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.30 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.31 (192.168.1.31) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.31 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.32 (192.168.1.32) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.32 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.33 (192.168.1.33) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.33 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.34 (192.168.1.34) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.34 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.35 (192.168.1.35) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.35 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.36 (192.168.1.36) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.36 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.37 (192.168.1.37) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.37 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.38 (192.168.1.38) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.38 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.39 (192.168.1.39) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.39 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.40 (192.168.1.40) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.40 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.41 (192.168.1.41) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.41 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.42 (192.168.1.42) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.42 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.43 (192.168.1.43) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.43 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.44 (192.168.1.44) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.44 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.45 (192.168.1.45) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.45 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.46 (192.168.1.46) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.46 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.47 (192.168.1.47) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.47 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.48 (192.168.1.48) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.48 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.49 (192.168.1.49) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.49 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.50 (192.168.1.50) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.50 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.51 (192.168.1.51) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.51 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.52 (192.168.1.52) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.52 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.53 (192.168.1.53) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.53 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.54 (192.168.1.54) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.54 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.55 (192.168.1.55) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.55 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.56 (192.168.1.56) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.56 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.57 (192.168.1.57) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.57 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.58 (192.168.1.58) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.58 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.59 (192.168.1.59) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.59 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.60 (192.168.1.60) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.60 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.61 (192.168.1.61) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.61 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.62 (192.168.1.62) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.62 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.63 (192.168.1.63) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.63 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.64 (192.168.1.64) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.64 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.65 (192.168.1.65) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.65 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.66 (192.168.1.66) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.66 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.67 (192.168.1.67) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.67 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.68 (192.168.1.68) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.68 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.69 (192.168.1.69) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.69 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.70 (192.168.1.70) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.70 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.71 (192.168.1.71) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.71 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.72 (192.168.1.72) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.72 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.73 (192.168.1.73) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.73 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.74 (192.168.1.74) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.74 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.75 (192.168.1.75) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.75 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.76 (192.168.1.76) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.76 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.77 (192.168.1.77) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.77 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.78 (192.168.1.78) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.78 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.79 (192.168.1.79) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.79 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.80 (192.168.1.80) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.80 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.81 (192.168.1.81) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.81 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.82 (192.168.1.82) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.82 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.83 (192.168.1.83) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.83 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.84 (192.168.1.84) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.84 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.85 (192.168.1.85) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.85 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.86 (192.168.1.86) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.86 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.87 (192.168.1.87) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.87 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.88 (192.168.1.88) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.88 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.89 (192.168.1.89) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.89 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.90 (192.168.1.90) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.90 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.91 (192.168.1.91) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.91 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.92 (192.168.1.92) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.92 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.93 (192.168.1.93) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.93 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.94 (192.168.1.94) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.94 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.95 (192.168.1.95) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.95 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.96 (192.168.1.96) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.96 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.97 (192.168.1.97) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.97 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.98 (192.168.1.98) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.98 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.99 (192.168.1.99) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.99 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.100 (192.168.1.100) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.100 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.101 (192.168.1.101) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.101 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.102 (192.168.1.102) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.102 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.103 (192.168.1.103) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.103 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.104 (192.168.1.104) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.104 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.105 (192.168.1.105) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.105 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.106 (192.168.1.106) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.106 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.107 (192.168.1.107) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.107 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.108 (192.168.1.108) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.108 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.109 (192.168.1.109) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.109 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.110 (192.168.1.110) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.110 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.111 (192.168.1.111) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.111 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.112 (192.168.1.112) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.112 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.113 (192.168.1.113) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.113 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.114 (192.168.1.114) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.114 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.115 (192.168.1.115) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.115 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.116 (192.168.1.116) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.116 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.117 (192.168.1.117) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.117 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.118 (192.168.1.118) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.118 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.119 (192.168.1.119) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.119 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.120 (192.168.1.120) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.120 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.121 (192.168.1.121) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.121 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.122 (192.168.1.122) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.122 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.123 (192.168.1.123) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.123 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.124 (192.168.1.124) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.124 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.125 (192.168.1.125) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.125 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.126 (192.168.1.126) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.126 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.127 (192.168.1.127) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.127 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.128 (192.168.1.128) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.128 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.129 (192.168.1.129) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.129 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.130 (192.168.1.130) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.130 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.131 (192.168.1.131) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.131 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.132 (192.168.1.132) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.132 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.133 (192.168.1.133) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.133 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.134 (192.168.1.134) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.134 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.135 (192.168.1.135) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.135 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.136 (192.168.1.136) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.136 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.137 (192.168.1.137) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.137 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.138 (192.168.1.138) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.138 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.139 (192.168.1.139) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.139 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.140 (192.168.1.140) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.140 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.141 (192.168.1.141) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.141 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.142 (192.168.1.142) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.142 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.143 (192.168.1.143) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.143 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.144 (192.168.1.144) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.144 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.145 (192.168.1.145) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.145 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.146 (192.168.1.146) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.146 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.147 (192.168.1.147) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.147 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.148 (192.168.1.148) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.148 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.149 (192.168.1.149) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.149 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.150 (192.168.1.150) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.150 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.151 (192.168.1.151) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.151 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.152 (192.168.1.152) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.152 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.153 (192.168.1.153) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.153 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.154 (192.168.1.154) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.154 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.155 (192.168.1.155) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.155 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.156 (192.168.1.156) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.156 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.157 (192.168.1.157) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.157 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.158 (192.168.1.158) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.158 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.159 (192.168.1.159) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.159 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.160 (192.168.1.160) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.160 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.161 (192.168.1.161) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.161 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.162 (192.168.1.162) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.162 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.163 (192.168.1.163) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.163 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.164 (192.168.1.164) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.164 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.165 (192.168.1.165) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.165 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.166 (192.168.1.166) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.166 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.167 (192.168.1.167) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.167 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.168 (192.168.1.168) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.168 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.169 (192.168.1.169) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.169 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.170 (192.168.1.170) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.170 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.171 (192.168.1.171) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.171 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.172 (192.168.1.172) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.172 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.173 (192.168.1.173) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.173 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.174 (192.168.1.174) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.174 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.175 (192.168.1.175) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.175 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.176 (192.168.1.176) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.176 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.177 (192.168.1.177) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.177 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.178 (192.168.1.178) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.178 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.179 (192.168.1.179) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.179 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.180 (192.168.1.180) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.180 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.181 (192.168.1.181) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.181 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.182 (192.168.1.182) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.182 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.183 (192.168.1.183) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.183 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.184 (192.168.1.184) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.184 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.185 (192.168.1.185) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.185 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.186 (192.168.1.186) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.186 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.187 (192.168.1.187) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.187 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.188 (192.168.1.188) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.188 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.189 (192.168.1.189) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.189 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.190 (192.168.1.190) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.190 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.191 (192.168.1.191) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.191 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.192 (192.168.1.192) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.192 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.193 (192.168.1.193) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.193 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 1ms
+
+PING 192.168.1.194 (192.168.1.194) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.194 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.195 (192.168.1.195) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.195 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.196 (192.168.1.196) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.196 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.197 (192.168.1.197) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.197 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.198 (192.168.1.198) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.198 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.199 (192.168.1.199) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.199 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.200 (192.168.1.200) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.200 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.201 (192.168.1.201) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.201 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.202 (192.168.1.202) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.202 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.203 (192.168.1.203) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.203 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.204 (192.168.1.204) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.204 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.205 (192.168.1.205) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.205 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.206 (192.168.1.206) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.206 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.207 (192.168.1.207) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.207 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.208 (192.168.1.208) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.208 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.209 (192.168.1.209) 56(84) bytes of data.
+
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.209 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.210 (192.168.1.210) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.210 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.211 (192.168.1.211) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.211 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.212 (192.168.1.212) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.212 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.213 (192.168.1.213) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.213 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.214 (192.168.1.214) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.214 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.215 (192.168.1.215) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.215 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.216 (192.168.1.216) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.216 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.217 (192.168.1.217) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.217 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.218 (192.168.1.218) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.218 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.219 (192.168.1.219) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.219 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.220 (192.168.1.220) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.220 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.221 (192.168.1.221) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.221 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.222 (192.168.1.222) 56(84) bytes of data.
+^LFrom 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.222 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.223 (192.168.1.223) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.223 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.224 (192.168.1.224) 56(84) bytes of data.
+
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.224 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.225 (192.168.1.225) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.225 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.226 (192.168.1.226) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.226 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.227 (192.168.1.227) 56(84) bytes of data.
+^Z
+zsh: suspended  ./scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ vim scan.sh
+                                                                                           
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh
+192.168.1.1
+192.168.1.3
+192.168.1.9
+              ___________________________________________________
+              vim 
+              ──(kali㉿kali)-[~/scan]
+└─$ ls
+scan
+                                                                             
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ vim scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh      
+zsh: permission denied: ./scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ chmod +x scan.sh      
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh
+PING 192.168.1.0 (192.168.1.0) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.0 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=63 time=2.98 ms
+
+--- 192.168.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.979/2.979/2.979/0.000 ms
+PING 192.168.1.2 (192.168.1.2) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.2 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.3 (192.168.1.3) 56(84) bytes of data.
+64 bytes from 192.168.1.3: icmp_seq=1 ttl=63 time=134 ms
+
+--- 192.168.1.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 134.118/134.118/134.118/0.000 ms
+PING 192.168.1.4 (192.168.1.4) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.4 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.5 (192.168.1.5) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.5 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.6 (192.168.1.6) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.6 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.7 (192.168.1.7) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.7 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.8 (192.168.1.8) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.8 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.9 (192.168.1.9) 56(84) bytes of data.
+64 bytes from 192.168.1.9: icmp_seq=1 ttl=127 time=1.76 ms
+
+--- 192.168.1.9 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.761/1.761/1.761/0.000 ms
+PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.10 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.11 (192.168.1.11) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.11 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.12 (192.168.1.12) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.12 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.13 (192.168.1.13) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.13 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.14 (192.168.1.14) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.14 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.15 (192.168.1.15) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.15 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.16 (192.168.1.16) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.16 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.17 (192.168.1.17) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.17 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.18 (192.168.1.18) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.18 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.19 (192.168.1.19) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.19 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.20 (192.168.1.20) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.20 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.21 (192.168.1.21) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.21 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.22 (192.168.1.22) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.22 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.23 (192.168.1.23) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.23 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.24 (192.168.1.24) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.24 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.25 (192.168.1.25) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.25 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.26 (192.168.1.26) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.26 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.27 (192.168.1.27) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.27 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.28 (192.168.1.28) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.28 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.29 (192.168.1.29) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.29 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.30 (192.168.1.30) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.30 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.31 (192.168.1.31) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.31 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.32 (192.168.1.32) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.32 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.33 (192.168.1.33) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.33 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.34 (192.168.1.34) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.34 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.35 (192.168.1.35) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.35 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.36 (192.168.1.36) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.36 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.37 (192.168.1.37) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.37 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.38 (192.168.1.38) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.38 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.39 (192.168.1.39) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.39 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.40 (192.168.1.40) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.40 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.41 (192.168.1.41) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.41 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.42 (192.168.1.42) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.42 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.43 (192.168.1.43) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.43 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.44 (192.168.1.44) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.44 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.45 (192.168.1.45) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.45 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.46 (192.168.1.46) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.46 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.47 (192.168.1.47) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.47 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.48 (192.168.1.48) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.48 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.49 (192.168.1.49) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.49 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.50 (192.168.1.50) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.50 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.51 (192.168.1.51) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.51 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.52 (192.168.1.52) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.52 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.53 (192.168.1.53) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.53 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.54 (192.168.1.54) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.54 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.55 (192.168.1.55) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.55 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.56 (192.168.1.56) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.56 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.57 (192.168.1.57) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.57 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.58 (192.168.1.58) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.58 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.59 (192.168.1.59) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.59 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.60 (192.168.1.60) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.60 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.61 (192.168.1.61) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.61 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.62 (192.168.1.62) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.62 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.63 (192.168.1.63) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.63 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.64 (192.168.1.64) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.64 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.65 (192.168.1.65) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.65 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.66 (192.168.1.66) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.66 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.67 (192.168.1.67) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.67 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.68 (192.168.1.68) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.68 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.69 (192.168.1.69) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.69 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.70 (192.168.1.70) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.70 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.71 (192.168.1.71) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.71 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.72 (192.168.1.72) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.72 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.73 (192.168.1.73) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.73 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.74 (192.168.1.74) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.74 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.75 (192.168.1.75) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.75 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.76 (192.168.1.76) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.76 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.77 (192.168.1.77) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.77 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.78 (192.168.1.78) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.78 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.79 (192.168.1.79) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.79 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.80 (192.168.1.80) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.80 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.81 (192.168.1.81) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.81 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.82 (192.168.1.82) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.82 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.83 (192.168.1.83) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.83 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.84 (192.168.1.84) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.84 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.85 (192.168.1.85) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.85 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.86 (192.168.1.86) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.86 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.87 (192.168.1.87) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.87 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.88 (192.168.1.88) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.88 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.89 (192.168.1.89) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.89 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.90 (192.168.1.90) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.90 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.91 (192.168.1.91) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.91 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.92 (192.168.1.92) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.92 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.93 (192.168.1.93) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.93 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.94 (192.168.1.94) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.94 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.95 (192.168.1.95) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.95 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.96 (192.168.1.96) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.96 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.97 (192.168.1.97) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.97 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.98 (192.168.1.98) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.98 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.99 (192.168.1.99) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.99 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.100 (192.168.1.100) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.100 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.101 (192.168.1.101) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.101 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.102 (192.168.1.102) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.102 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.103 (192.168.1.103) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.103 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.104 (192.168.1.104) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.104 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.105 (192.168.1.105) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.105 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.106 (192.168.1.106) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.106 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.107 (192.168.1.107) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.107 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.108 (192.168.1.108) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.108 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.109 (192.168.1.109) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.109 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.110 (192.168.1.110) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.110 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.111 (192.168.1.111) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.111 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.112 (192.168.1.112) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.112 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.113 (192.168.1.113) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.113 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.114 (192.168.1.114) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.114 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.115 (192.168.1.115) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.115 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.116 (192.168.1.116) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.116 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.117 (192.168.1.117) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.117 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.118 (192.168.1.118) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.118 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.119 (192.168.1.119) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.119 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.120 (192.168.1.120) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.120 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.121 (192.168.1.121) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.121 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.122 (192.168.1.122) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.122 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.123 (192.168.1.123) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.123 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.124 (192.168.1.124) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.124 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.125 (192.168.1.125) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.125 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.126 (192.168.1.126) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.126 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.127 (192.168.1.127) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.127 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.128 (192.168.1.128) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.128 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.129 (192.168.1.129) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.129 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.130 (192.168.1.130) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.130 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.131 (192.168.1.131) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.131 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.132 (192.168.1.132) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.132 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.133 (192.168.1.133) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.133 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.134 (192.168.1.134) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.134 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.135 (192.168.1.135) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.135 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.136 (192.168.1.136) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.136 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.137 (192.168.1.137) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.137 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.138 (192.168.1.138) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.138 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.139 (192.168.1.139) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.139 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.140 (192.168.1.140) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.140 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.141 (192.168.1.141) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.141 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.142 (192.168.1.142) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.142 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.143 (192.168.1.143) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.143 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.144 (192.168.1.144) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.144 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.145 (192.168.1.145) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.145 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.146 (192.168.1.146) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.146 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.147 (192.168.1.147) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.147 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.148 (192.168.1.148) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.148 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.149 (192.168.1.149) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.149 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.150 (192.168.1.150) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.150 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.151 (192.168.1.151) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.151 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.152 (192.168.1.152) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.152 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.153 (192.168.1.153) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.153 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.154 (192.168.1.154) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.154 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.155 (192.168.1.155) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.155 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.156 (192.168.1.156) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.156 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.157 (192.168.1.157) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.157 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.158 (192.168.1.158) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.158 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.159 (192.168.1.159) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.159 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.160 (192.168.1.160) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.160 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.161 (192.168.1.161) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.161 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.162 (192.168.1.162) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.162 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.163 (192.168.1.163) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.163 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.164 (192.168.1.164) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.164 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.165 (192.168.1.165) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.165 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.166 (192.168.1.166) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.166 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.167 (192.168.1.167) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.167 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.168 (192.168.1.168) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.168 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.169 (192.168.1.169) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.169 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.170 (192.168.1.170) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.170 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.171 (192.168.1.171) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.171 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.172 (192.168.1.172) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.172 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.173 (192.168.1.173) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.173 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.174 (192.168.1.174) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.174 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.175 (192.168.1.175) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.175 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.176 (192.168.1.176) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.176 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.177 (192.168.1.177) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.177 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.178 (192.168.1.178) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.178 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.179 (192.168.1.179) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.179 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.180 (192.168.1.180) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.180 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.181 (192.168.1.181) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.181 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.182 (192.168.1.182) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.182 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.183 (192.168.1.183) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.183 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.184 (192.168.1.184) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.184 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.185 (192.168.1.185) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.185 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.186 (192.168.1.186) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.186 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.187 (192.168.1.187) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.187 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.188 (192.168.1.188) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.188 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.189 (192.168.1.189) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.189 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.190 (192.168.1.190) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.190 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.191 (192.168.1.191) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.191 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.192 (192.168.1.192) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.192 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.193 (192.168.1.193) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.193 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 1ms
+
+PING 192.168.1.194 (192.168.1.194) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.194 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.195 (192.168.1.195) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.195 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.196 (192.168.1.196) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.196 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.197 (192.168.1.197) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.197 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.198 (192.168.1.198) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.198 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.199 (192.168.1.199) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.199 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.200 (192.168.1.200) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.200 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.201 (192.168.1.201) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.201 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.202 (192.168.1.202) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.202 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.203 (192.168.1.203) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.203 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.204 (192.168.1.204) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.204 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.205 (192.168.1.205) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.205 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.206 (192.168.1.206) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.206 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.207 (192.168.1.207) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.207 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.208 (192.168.1.208) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.208 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.209 (192.168.1.209) 56(84) bytes of data.
+
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.209 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.210 (192.168.1.210) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.210 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.211 (192.168.1.211) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.211 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.212 (192.168.1.212) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.212 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.213 (192.168.1.213) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.213 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.214 (192.168.1.214) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.214 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.215 (192.168.1.215) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.215 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.216 (192.168.1.216) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.216 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.217 (192.168.1.217) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.217 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.218 (192.168.1.218) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.218 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.219 (192.168.1.219) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.219 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.220 (192.168.1.220) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.220 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.221 (192.168.1.221) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.221 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.222 (192.168.1.222) 56(84) bytes of data.
+^LFrom 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.222 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.223 (192.168.1.223) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.223 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.224 (192.168.1.224) 56(84) bytes of data.
+
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.224 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.225 (192.168.1.225) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.225 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.226 (192.168.1.226) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.226 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.227 (192.168.1.227) 56(84) bytes of data.
+^Z
+zsh: suspended  ./scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ vim scan.sh
+                                                                                           
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh
+192.168.1.1
+192.168.1.3
+192.168.1.9
+              
+              
+              
+              
+              ──(kali㉿kali)-[~/scan]
+└─$ ls
+scan
+                                                                             
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ vim scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh      
+zsh: permission denied: ./scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ chmod +x scan.sh      
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh
+PING 192.168.1.0 (192.168.1.0) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.0 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=63 time=2.98 ms
+
+--- 192.168.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.979/2.979/2.979/0.000 ms
+PING 192.168.1.2 (192.168.1.2) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.2 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.3 (192.168.1.3) 56(84) bytes of data.
+64 bytes from 192.168.1.3: icmp_seq=1 ttl=63 time=134 ms
+
+--- 192.168.1.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 134.118/134.118/134.118/0.000 ms
+PING 192.168.1.4 (192.168.1.4) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.4 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.5 (192.168.1.5) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.5 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.6 (192.168.1.6) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.6 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.7 (192.168.1.7) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.7 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.8 (192.168.1.8) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.8 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.9 (192.168.1.9) 56(84) bytes of data.
+64 bytes from 192.168.1.9: icmp_seq=1 ttl=127 time=1.76 ms
+
+--- 192.168.1.9 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.761/1.761/1.761/0.000 ms
+PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.10 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.11 (192.168.1.11) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.11 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.12 (192.168.1.12) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.12 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.13 (192.168.1.13) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.13 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.14 (192.168.1.14) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.14 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.15 (192.168.1.15) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.15 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.16 (192.168.1.16) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.16 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.17 (192.168.1.17) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.17 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.18 (192.168.1.18) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.18 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.19 (192.168.1.19) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.19 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.20 (192.168.1.20) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.20 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.21 (192.168.1.21) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.21 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.22 (192.168.1.22) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.22 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.23 (192.168.1.23) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.23 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.24 (192.168.1.24) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.24 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.25 (192.168.1.25) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.25 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.26 (192.168.1.26) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.26 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.27 (192.168.1.27) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.27 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.28 (192.168.1.28) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.28 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.29 (192.168.1.29) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.29 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.30 (192.168.1.30) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.30 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.31 (192.168.1.31) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.31 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.32 (192.168.1.32) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.32 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.33 (192.168.1.33) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.33 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.34 (192.168.1.34) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.34 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.35 (192.168.1.35) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.35 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.36 (192.168.1.36) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.36 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.37 (192.168.1.37) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.37 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.38 (192.168.1.38) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.38 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.39 (192.168.1.39) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.39 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.40 (192.168.1.40) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.40 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.41 (192.168.1.41) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.41 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.42 (192.168.1.42) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.42 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.43 (192.168.1.43) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.43 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.44 (192.168.1.44) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.44 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.45 (192.168.1.45) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.45 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.46 (192.168.1.46) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.46 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.47 (192.168.1.47) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.47 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.48 (192.168.1.48) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.48 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.49 (192.168.1.49) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.49 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.50 (192.168.1.50) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.50 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.51 (192.168.1.51) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.51 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.52 (192.168.1.52) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.52 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.53 (192.168.1.53) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.53 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.54 (192.168.1.54) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.54 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.55 (192.168.1.55) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.55 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.56 (192.168.1.56) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.56 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.57 (192.168.1.57) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.57 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.58 (192.168.1.58) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.58 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.59 (192.168.1.59) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.59 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.60 (192.168.1.60) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.60 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.61 (192.168.1.61) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.61 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.62 (192.168.1.62) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.62 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.63 (192.168.1.63) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.63 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.64 (192.168.1.64) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.64 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.65 (192.168.1.65) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.65 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.66 (192.168.1.66) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.66 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.67 (192.168.1.67) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.67 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.68 (192.168.1.68) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.68 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.69 (192.168.1.69) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.69 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.70 (192.168.1.70) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.70 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.71 (192.168.1.71) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.71 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.72 (192.168.1.72) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.72 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.73 (192.168.1.73) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.73 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.74 (192.168.1.74) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.74 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.75 (192.168.1.75) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.75 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.76 (192.168.1.76) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.76 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.77 (192.168.1.77) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.77 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.78 (192.168.1.78) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.78 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.79 (192.168.1.79) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.79 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.80 (192.168.1.80) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.80 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.81 (192.168.1.81) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.81 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.82 (192.168.1.82) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.82 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.83 (192.168.1.83) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.83 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.84 (192.168.1.84) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.84 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.85 (192.168.1.85) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.85 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.86 (192.168.1.86) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.86 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.87 (192.168.1.87) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.87 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.88 (192.168.1.88) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.88 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.89 (192.168.1.89) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.89 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.90 (192.168.1.90) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.90 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.91 (192.168.1.91) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.91 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.92 (192.168.1.92) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.92 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.93 (192.168.1.93) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.93 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.94 (192.168.1.94) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.94 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.95 (192.168.1.95) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.95 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.96 (192.168.1.96) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.96 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.97 (192.168.1.97) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.97 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.98 (192.168.1.98) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.98 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.99 (192.168.1.99) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.99 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.100 (192.168.1.100) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.100 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.101 (192.168.1.101) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.101 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.102 (192.168.1.102) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.102 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.103 (192.168.1.103) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.103 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.104 (192.168.1.104) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.104 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.105 (192.168.1.105) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.105 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.106 (192.168.1.106) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.106 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.107 (192.168.1.107) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.107 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.108 (192.168.1.108) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.108 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.109 (192.168.1.109) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.109 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.110 (192.168.1.110) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.110 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.111 (192.168.1.111) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.111 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.112 (192.168.1.112) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.112 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.113 (192.168.1.113) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.113 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.114 (192.168.1.114) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.114 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.115 (192.168.1.115) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.115 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.116 (192.168.1.116) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.116 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.117 (192.168.1.117) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.117 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.118 (192.168.1.118) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.118 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.119 (192.168.1.119) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.119 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.120 (192.168.1.120) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.120 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.121 (192.168.1.121) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.121 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.122 (192.168.1.122) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.122 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.123 (192.168.1.123) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.123 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.124 (192.168.1.124) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.124 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.125 (192.168.1.125) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.125 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.126 (192.168.1.126) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.126 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.127 (192.168.1.127) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.127 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.128 (192.168.1.128) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.128 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.129 (192.168.1.129) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.129 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.130 (192.168.1.130) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.130 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.131 (192.168.1.131) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.131 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.132 (192.168.1.132) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.132 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.133 (192.168.1.133) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.133 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.134 (192.168.1.134) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.134 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.135 (192.168.1.135) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.135 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.136 (192.168.1.136) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.136 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.137 (192.168.1.137) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.137 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.138 (192.168.1.138) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.138 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.139 (192.168.1.139) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.139 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.140 (192.168.1.140) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.140 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.141 (192.168.1.141) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.141 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.142 (192.168.1.142) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.142 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.143 (192.168.1.143) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.143 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.144 (192.168.1.144) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.144 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.145 (192.168.1.145) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.145 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.146 (192.168.1.146) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.146 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.147 (192.168.1.147) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.147 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.148 (192.168.1.148) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.148 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.149 (192.168.1.149) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.149 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.150 (192.168.1.150) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.150 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.151 (192.168.1.151) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.151 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.152 (192.168.1.152) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.152 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.153 (192.168.1.153) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.153 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.154 (192.168.1.154) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.154 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.155 (192.168.1.155) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.155 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.156 (192.168.1.156) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.156 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.157 (192.168.1.157) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.157 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.158 (192.168.1.158) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.158 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.159 (192.168.1.159) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.159 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.160 (192.168.1.160) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.160 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.161 (192.168.1.161) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.161 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.162 (192.168.1.162) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.162 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.163 (192.168.1.163) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.163 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.164 (192.168.1.164) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.164 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.165 (192.168.1.165) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.165 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.166 (192.168.1.166) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.166 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.167 (192.168.1.167) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.167 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.168 (192.168.1.168) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.168 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.169 (192.168.1.169) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.169 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.170 (192.168.1.170) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.170 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.171 (192.168.1.171) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.171 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.172 (192.168.1.172) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.172 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.173 (192.168.1.173) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.173 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.174 (192.168.1.174) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.174 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.175 (192.168.1.175) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.175 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.176 (192.168.1.176) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.176 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.177 (192.168.1.177) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.177 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.178 (192.168.1.178) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.178 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.179 (192.168.1.179) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.179 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.180 (192.168.1.180) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.180 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.181 (192.168.1.181) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.181 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.182 (192.168.1.182) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.182 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.183 (192.168.1.183) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.183 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.184 (192.168.1.184) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.184 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.185 (192.168.1.185) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.185 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.186 (192.168.1.186) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.186 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.187 (192.168.1.187) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.187 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.188 (192.168.1.188) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.188 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.189 (192.168.1.189) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.189 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.190 (192.168.1.190) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.190 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.191 (192.168.1.191) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.191 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.192 (192.168.1.192) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.192 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.193 (192.168.1.193) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.193 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 1ms
+
+PING 192.168.1.194 (192.168.1.194) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.194 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.195 (192.168.1.195) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.195 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.196 (192.168.1.196) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.196 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.197 (192.168.1.197) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.197 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.198 (192.168.1.198) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.198 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.199 (192.168.1.199) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.199 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.200 (192.168.1.200) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.200 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.201 (192.168.1.201) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.201 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.202 (192.168.1.202) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.202 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.203 (192.168.1.203) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.203 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.204 (192.168.1.204) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.204 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.205 (192.168.1.205) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.205 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.206 (192.168.1.206) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.206 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.207 (192.168.1.207) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.207 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.208 (192.168.1.208) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.208 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.209 (192.168.1.209) 56(84) bytes of data.
+
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.209 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.210 (192.168.1.210) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.210 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.211 (192.168.1.211) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.211 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.212 (192.168.1.212) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.212 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.213 (192.168.1.213) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.213 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.214 (192.168.1.214) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.214 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.215 (192.168.1.215) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.215 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.216 (192.168.1.216) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.216 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.217 (192.168.1.217) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.217 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.218 (192.168.1.218) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.218 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.219 (192.168.1.219) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.219 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.220 (192.168.1.220) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.220 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.221 (192.168.1.221) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.221 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.222 (192.168.1.222) 56(84) bytes of data.
+^LFrom 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.222 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.223 (192.168.1.223) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.223 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.224 (192.168.1.224) 56(84) bytes of data.
+
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.224 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.225 (192.168.1.225) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.225 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.226 (192.168.1.226) 56(84) bytes of data.
+From 192.168.1.9 icmp_seq=1 Destination Host Unreachable
+
+--- 192.168.1.226 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 192.168.1.227 (192.168.1.227) 56(84) bytes of data.
+^Z
+zsh: suspended  ./scan.sh
+                                                                             
+┌──(kali㉿kali)-[~/scan]
+└─$ vim scan.sh
+                                                                                           
+┌──(kali㉿kali)-[~/scan]
+└─$ ./scan.sh
+192.168.1.1
+192.168.1.3
+192.168.1.9
+              

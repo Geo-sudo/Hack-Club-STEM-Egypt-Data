@@ -1,0 +1,53 @@
+buildscript {
+  
+    ext.kotlin_version = '1.6.10'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+android {
+    compileSdkVersion 30
+
+defaultConfig {
+    applicationId "com.example.app"
+    minSdkVersion 21
+    targetSdkVersion 30
+    versionCode flutterVersionCode.toInteger()
+    versionName flutterVersionName
+    multiDexEnabled true
+}}
+android {
+    compileSdkVersion localProperties.getProperty('flutter.compileSdkVersion').toInteger()
+
+defaultConfig {
+    minSdkVersion localProperties.getProperty('flutter.minSdkVersion').toInteger()
+    targetSdkVersion localProperties.getProperty('flutter.targetSdkVersion').toInteger()
+    versionCode flutterVersionCode.toInteger()
+    versionName flutterVersionName
+}}

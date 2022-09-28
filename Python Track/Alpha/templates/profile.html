@@ -1,0 +1,49 @@
+{% extends "forum.html" %}
+
+
+{% block content %}
+<!--
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://www.dreamstime.com/default-avatar-profile-icon-vector-user-image-image179582665" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text"> Username: {{data[1]}}<br>First name: {{data[2]}}<br> Last name: {{data[3]}}<br> Alias: {{data[4]}} <br> {{data[2]}}<br></p>
+  </div>
+</div>
+
+-->
+
+
+
+
+
+
+<script>
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
+</script>
+
+
+
+<div class = "center" style = "text-align: center" ><h4>Welcome home {{data[1]}} !!</h4></div> 
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/1160/1160040.png?w=740&t=st=1663269977~exp=1663270577~hmac=a87148e0f9865df15e37d7a19f35b166634c4a5d8237281a7f8224fc55507d41" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{data[1]}}</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">First name: {{data[2]}}</li>
+    <li class="list-group-item">Last name: {{data[3]}}</li>
+	<li class="list-group-item">Alias: {{data[4]}}</li>
+	<li class="list-group-item">school: {{data[5]}}</li>
+	<li class="list-group-item">Email: {{data[6]}}</li>
+	<li class="list-group-item">Home City: {{data[7]}}</li>
+	<li class="list-group-item">Grade: {{data[8]}}</li>
+  </ul>
+  
+</div>
+
+
+
+{% endblock content %}
